@@ -5,7 +5,7 @@ class SorceryAuth < DerailedBenchmarks::AuthHelper
     # extend ::Sorcery::TestHelpers::Rails::Controller
     # extend ::Sorcery::TestHelpers::Rails::Request
     # extend ::Sorcery::TestHelpers::Rails::Integration
-    # extend ::Sorcery::Controller::InstanceMethods
+    extend ::Sorcery::Controller::InstanceMethods
     # initialize code here
   end
 
